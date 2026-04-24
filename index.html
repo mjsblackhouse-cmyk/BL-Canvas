@@ -1,0 +1,869 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Braeden Lord — Leadership Coaching Canvas&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--navy: #1C2B4A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--navy-mid: #2A3F6A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--navy-light: #3D5A8A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--gold: #B8903A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--gold-light: #D4AE60;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--gold-pale: #F5EDD8;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--cream: #FAF7F2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--ink: #1A1A1A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--muted: #6B7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--rule: #D6CEBC;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>--white: #FFFFFF;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--cream);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--ink);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Sans', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.65;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── HEADER ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 48px 64px 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: -60px; right: -60px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 300px; height: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: radial-gradient(circle, rgba(184,144,58,0.18) 0%, transparent 70%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead::after {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>bottom: 0; left: 0; right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 50%, transparent 100%);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead-meta {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.18em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold-light);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>opacity: 0.85;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead-name {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 56px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.05;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: -0.01em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold-light);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.masthead-tags {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.tag {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 4px 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid rgba(184,144,58,0.4);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold-light);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── MAIN GRID ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.canvas-body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0 64px 80px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── SECTION WRAPPER ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 44px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-bottom: 1px solid var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: fadeUp 0.6s ease both;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:last-child { border-bottom: none; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes fadeUp {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>from { opacity: 0; transform: translateY(16px); }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>to <span class="Apple-converted-space">  </span>{ opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(1)<span class="Apple-converted-space">  </span>{ animation-delay: 0.05s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(2)<span class="Apple-converted-space">  </span>{ animation-delay: 0.10s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(3)<span class="Apple-converted-space">  </span>{ animation-delay: 0.15s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(4)<span class="Apple-converted-space">  </span>{ animation-delay: 0.20s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(5)<span class="Apple-converted-space">  </span>{ animation-delay: 0.25s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(6)<span class="Apple-converted-space">  </span>{ animation-delay: 0.30s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(7)<span class="Apple-converted-space">  </span>{ animation-delay: 0.35s; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section:nth-child(8)<span class="Apple-converted-space">  </span>{ animation-delay: 0.40s; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-label {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.20em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-label::after {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex: 0 0 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>opacity: 0.4;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-heading {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 780px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #3D3D3D;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14.5px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── TWO-COL LAYOUT ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.two-col {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: 1fr 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.three-col {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: 1fr 1fr 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 36px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── BLOCK ELEMENTS ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.block-label {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.14em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.block-heading {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 19px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.25;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.block-body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13.5px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #4A4A4A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── PULL QUOTE ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pull-quote {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 3px solid var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 28px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--gold-pale);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 0 4px 4px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pull-quote p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── SCORE MATRIX ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-grid {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(3, 1fr);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: background 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #F0EDE7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell-label {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 9px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell-score {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 34px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell-score span {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-bar-track {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 8px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-bar-fill {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(90deg, var(--navy-light), var(--gold));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.score-cell-note {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 11.5px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── OBJECTIVE CARDS ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 28px 28px 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: box-shadow 0.2s, transform 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 6px 24px rgba(28,43,74,0.10);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translateY(-2px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0; left: 0; right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card.obj-1::before { background: var(--navy); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card.obj-2::before { background: var(--gold); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-card.obj-3::before { background: var(--navy-light); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-number {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 42px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 21px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #4A4A4A;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.65;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-indicator-label {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 9.5px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.obj-indicator {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── DEVELOPMENT EDGE ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.edge-box {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 32px 36px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.edge-box::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>right: -20px; top: -20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 160px; height: 160px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: radial-gradient(circle, rgba(184,144,58,0.12) 0%, transparent 70%);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.edge-box p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: rgba(255,255,255,0.88);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 720px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.edge-box strong {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold-light);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: normal;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── TIMELINE ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding-left: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 6px; top: 8px; bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(to bottom, var(--gold), var(--navy-light));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-item {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-item:last-child { margin-bottom: 0; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-item::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: -25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 10px; height: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px solid var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-date {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-session {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.timeline-desc {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--muted);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.55;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── QUESTION CARD ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.question-list {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.question-item {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: flex-start;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 14px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--white);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid var(--rule);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: border-color 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.question-item:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.q-mark {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Cormorant Garamond', serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 22px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--gold);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.q-text {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 300;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #3D3D3D;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.55;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── STRENGTHS / WATCH ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pill-row {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pill {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 6px 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 400;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.02em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pill-strength {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #E8F0E4;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #2D5016;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #C0D8B0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pill-watch {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #FEF3E2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #7A4A00;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #E8CDA0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.pill-focus {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--gold-pale);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid var(--gold-light);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── FOOTER ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.canvas-footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 24px 64px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-credit {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: rgba(255,255,255,0.35);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.footer-date {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'DM Mono', monospace;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 0.12em;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: rgba(184,144,58,0.6);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ── RESPONSIVE ── */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 860px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.masthead { padding: 36px 32px 30px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.canvas-body { padding: 0 32px 60px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.masthead-name { font-size: 40px; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.two-col, .three-col { grid-template-columns: 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.score-grid { grid-template-columns: 1fr 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.canvas-footer { padding: 20px 32px; flex-direction: column; gap: 8px; text-align: center; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- MASTHEAD --&gt;</p>
+<p class="p1">&lt;div class="masthead"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="masthead-meta"&gt;Leadership Coaching Canvas &amp;nbsp;·&amp;nbsp; AI-Enhanced Practice&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="masthead-name"&gt;Braeden Lord&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="masthead-title"&gt;Chief Executive Officer, Starbucks Australia&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="masthead-tags"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="tag"&gt;Session 2 · 23 April 2026&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="tag"&gt;Innovation &amp; Leadership Development&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="tag"&gt;Second Chair Protocol&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- BODY --&gt;</p>
+<p class="p1">&lt;div class="canvas-body"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 1. VISION --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;01 &amp;nbsp; Vision&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;What this leader is building&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;An organisation that is culturally embedded in innovation — not individual-dependent, not driven from the top, but enterprise-wide and self-sustaining. A Starbucks Australia where ten district managers developing a hundred store managers is the mechanism of transformation, and where learning and development cascade as naturally as commercial accountability does.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="pull-quote" style="margin-top:24px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;"The 10 to 100 — 10 district managers to 100 store managers. Then you're a long way down the road in store excellence."&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 2. LEADERSHIP STRENGTHS / WATCH --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;02 &amp;nbsp; Leadership Profile&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;Strengths and edges to watch&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="two-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Demonstrated strengths&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Executional excellence&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Systemic thinking&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Transparent communication&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Structured problem decomposition&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Strategic ambition&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Culture through systems&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Self-awareness&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Learning orientation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 16px;" class="block-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Braeden's operational DNA is a genuine asset. The instinct to build processes, create structure, and measure outcomes is not a liability — it is the foundation on which a serious innovation culture can be built. The risk is only if it becomes the only register.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Development edges to watch&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pill-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Driving vs. building&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Delegation by framing&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Innovation fluency gap&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Ambiguity tolerance&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Front-end discipline&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 16px;" class="block-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Braeden's primary edge is the shift from chief executor to culture architect. He recognises it himself. The question is not whether to make this shift but &lt;em&gt;when&lt;/em&gt; driving is appropriate and when it becomes a constraint — and building the habit of asking that question in real time.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 3. INNOVATION MATURITY SCORES --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;03 &amp;nbsp; Innovation Maturity&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;Self-assessed pipeline performance&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-body" style="margin-bottom: 20px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Braeden rated Starbucks Australia's innovation pipeline across six phases. Relative strength sits in the execution phases; material weakness at both ends — front-end definition and back-end capture. This is the classic pattern for operationally strong organisations making the transition to genuine innovation capability.</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="score-grid" id="scoreGrid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;Opportunity Radar&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;5–6 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="55%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Moderate. Reactive rather than proactive signal-scanning. Good instinct for obvious opportunities.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;Problem Definition&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;3–4 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="35%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Weakest phase. Creates downstream inconsistency. Size-of-prize rarely quantified at outset.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;Ideation&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;5 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="50%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Adequate. Insufficient cross-functionality. Tendency toward premature convergence on first viable option.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;MVP Development&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;6 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="60%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Reasonably strong. Protein example showed risk of over-engineering before trial.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;Trial Execution&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;6–7 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="65%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Strongest phase. Operational DNA shows. Casual labour and protein trials both well-run.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="score-cell"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-label"&gt;Capture &amp; Scale&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-score"&gt;4 &lt;span&gt;/ 10&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-bar-track"&gt;&lt;div class="score-bar-fill" style="width: 0%" data-width="40%"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="score-cell-note"&gt;Significant gap. Pipeline stalls before full value is extracted. Learning rarely documented systematically.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 4. CURRENT PILOTS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;04 &amp;nbsp; Active Pilots&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;Three test-and-learn initiatives&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="three-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Pilot 01&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-heading"&gt;Casual Labour&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body"&gt;Four weeks in with strong early results. Benchmarking cohort needs refinement. The size-of-prize was not quantified upfront — Braeden identified this as having held the team back from challenging timelines. Next step: PG to present expanded trial design within two weeks, with Melbourne CBD as the candidate geography.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 12px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-focus"&gt;Expand trial&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Redefine benchmark&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Pilot 02&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-heading"&gt;Protein Range&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body"&gt;Rated 7/10 overall. Strong front-end definition and swift identification as a winner. Miss: over-engineering before trial — too much refinement before go-to-market. AP approval received. Finished product closely resembles first in-market trial, raising the question of whether refining added value. Key learning: speed to trial matters more than finish at MVP stage.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 12px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-strength"&gt;Implementation approved&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Speed lesson captured&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Pilot 03&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-heading"&gt;Cup Marking&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body"&gt;Pete-led, entered the pipeline informally. Good operational energy but missed the intake discipline — no defined success criteria, no original benchmarks, no formal process entry. Now brought into structure via a 15-minute intake form. A useful red flag: the culture currently makes it easier to start a trial than to scope one properly.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 12px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-watch"&gt;Retrofit structure&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pill pill-focus"&gt;Intake form deployed&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 5. KEY INSIGHT --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;05 &amp;nbsp; Key Insight&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;The size-of-prize principle&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;The most important moment in the session. Braeden identified it himself: failing to quantify the prize for casual labour had held the team back from challenging timelines and being more demanding about progress. Without a defined prize, the organisation lacks the urgency to accelerate when results warrant it and the clarity to deprioritise when they don't.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p style="margin-top:12px;"&gt;This is not a project management insight — it is a leadership one. It applies across everything the organisation is building.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="edge-box" style="margin-top: 24px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;strong&gt;Standing discipline going forward:&lt;/strong&gt; For every initiative entering the pipeline, the team defines the prize — quantified where possible — before any trial begins. This single habit, consistently applied, addresses the front-end weakness and creates natural velocity when results are strong.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 6. DEVELOPMENT OBJECTIVES --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;06 &amp;nbsp; Development Objectives&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;Three priorities for the next phase&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="three-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="obj-card obj-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-number"&gt;01&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-title"&gt;Innovation Fluency&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-body"&gt;Develop the ability to articulate what excellent innovation practice looks like with the same confidence Braeden brings to operational excellence. Not comprehensive knowledge — fluency. The ability to name it, recognise it, and develop others toward it.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator-label"&gt;Progress indicator&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator"&gt;Can describe 3–4 characteristics of excellent innovation with examples. Begins developing others using this language.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="obj-card obj-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-number"&gt;02&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-title"&gt;Delegation by Trust&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-body"&gt;Shift from delegation by framing (solving then handing over) to delegation by trust (handing over the problem). Build others' ownership rather than their alignment with Braeden's prior framing.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator-label"&gt;Progress indicator&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator"&gt;Regular reflection on 'what did I drive this week that someone else could have owned?' Evidence of team initiating and resolving without prior framing.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="obj-card obj-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-number"&gt;03&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-title"&gt;Culture Architecture&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-body"&gt;Translate the cascade vision into a deliberate, structured programme — not a parallel activity. The learning and development agenda should be as structured and measured as the commercial agenda.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator-label"&gt;Progress indicator&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="obj-indicator"&gt;Development conversations with direct reports are regular, structured, documented. Second chair deployed as a team-wide methodology.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 7. LIVE QUESTIONS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;07 &amp;nbsp; Live Questions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;For Braeden to hold between sessions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="question-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="question-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-mark"&gt;—&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-text"&gt;Where, in the next two weeks, will you find yourself driving something that someone else could own? What will you do when you notice it?&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="question-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-mark"&gt;—&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-text"&gt;What does it feel like to let go of driving — and what, if anything, makes that difficult?&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="question-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-mark"&gt;—&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-text"&gt;How would you describe to a new leadership team member what excellent innovation practice looks like at Starbucks Australia? Could you answer that question with the same ease you'd describe executional excellence?&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="question-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-mark"&gt;—&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-text"&gt;When the May 19th session ends, what do you want the team to have discovered — as distinct from what you want them to have been told?&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="question-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-mark"&gt;—&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="q-text"&gt;What is it actually like to be you leading this organisation right now?&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 8. FORWARD PLAN --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-label"&gt;08 &amp;nbsp; Forward Plan&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-heading"&gt;Next three sessions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="two-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="timeline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-date"&gt;Session 3 · May 2026&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-session"&gt;Post-19th debrief &amp; personal register&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-desc"&gt;How did the team session land? What surprised you? Where were you still driving? First deliberate exploration of Braeden's personal experience of leading this organisation.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-date"&gt;Session 4 · June 2026&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-session"&gt;Leadership development architecture&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-desc"&gt;How is Pete developing? What does Braeden's development conversation with each direct report actually look like? Draft architecture for the 10-to-100 cascade. Second chair as team-wide tool.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-date"&gt;Session 5 · August 2026&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-session"&gt;Innovation maturity review &amp; mid-point&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-desc"&gt;Re-score the pipeline. What has changed? Honest read on delegation by trust progress. Revised objectives for H2. Possible 360 stakeholder feedback design.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-label"&gt;Immediate horizon&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-heading"&gt;Before the next session&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body" style="margin-bottom: 20px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;strong style="color: var(--navy);"&gt;May 19th Leadership Team Session.&lt;/strong&gt; The most important design question is not what Braeden presents — it is what the team discovers. The difference between a team endorsing a model and a team genuinely co-creating one is visible in the room and durable over time.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body" style="margin-bottom: 20px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;strong style="color: var(--navy);"&gt;Innovation reading.&lt;/strong&gt; Two short pieces to be provided by Michael. Goal: fluency, not comprehensiveness. The ability to articulate what good looks like — with examples — at a level that supports coaching others.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="block-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;strong style="color: var(--navy);"&gt;Second chair.&lt;/strong&gt; The protocol is well-matched to Braeden's learning style. First deployment with a direct report development conversation to be trialled before Session 3.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- FOOTER --&gt;</p>
+<p class="p1">&lt;div class="canvas-footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="footer-credit"&gt;AI-Enhanced Executive Coaching · Michael Smith&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="footer-date"&gt;Updated 25 April 2026&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Animate score bars on scroll into view</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const bars = document.querySelectorAll('.score-bar-fill');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const observer = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>entries.forEach(entry =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (entry.isIntersecting) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const bar = entry.target;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const targetWidth = bar.getAttribute('data-width');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(() =&gt; { bar.style.width = targetWidth; }, 100);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>observer.unobserve(bar);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}, { threshold: 0.2 });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>bars.forEach(bar =&gt; observer.observe(bar));</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
